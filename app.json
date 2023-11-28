@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "Movie",
-    "slug": "Movie",
+    "slug": "movie",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -15,7 +15,8 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.sourav118.movie"
     },
     "android": {
       "adaptiveIcon": {
@@ -25,6 +26,12 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "1a29a39f-1e08-4003-b314-77acdbca4b8a"
+      }
+    },
+    "owner": "sourav118"
   }
 }
